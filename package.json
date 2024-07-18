@@ -1,0 +1,22 @@
+{
+  "name": "70-dars",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/app",
+    "dev": "nodemon src/app"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@apollo/server": "^4.10.4",
+    "nodemon": "^3.1.4"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.17.0",
+    "dotenv": "^16.4.5",
+    "prisma": "^5.17.0"
+  }
+}
